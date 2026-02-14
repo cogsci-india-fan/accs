@@ -2,11 +2,14 @@ body{
     max-width: 960px;
     margin: auto;
     text-align: center;
+    padding: 12px;
 }
 
 table{
     width: auto;
     margin: auto;
+    overflow-x:scroll;
+    display:block;
 }
 
 table, th, td{
