@@ -9,11 +9,16 @@ table{
     width: auto;
     margin: auto;
     overflow-x:scroll;
-    display:block;
 }
 
 table, th, td{
     border: 1px solid black;
     padding: 6px;
     text-align: center;
+}
+
+@media (max-width: 768px){
+    table{
+        display:block;
+    }
 }
